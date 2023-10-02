@@ -1,0 +1,23 @@
+header {
+  background-image: url("/assets/imagenes/luna-fondo.jpg");
+  height: 100vh;
+
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: auto; 
+}
+
+#logo{
+  width: 300px;
+  height: auto; 
+}
+
+header a, h3, p {
+ opacity: 0.5;
+}
+
+header h1 {
+  opacity: 0.8;
+}

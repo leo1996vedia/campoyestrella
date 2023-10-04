@@ -1,5 +1,5 @@
 header {
-  background-image: url("assets/imagenes/luna-fondo.jpg");
+  background-image: url("/assets/imagenes/luna-fondo.jpg");
   height: 100vh;
 
 }
@@ -29,5 +29,5 @@ header h1 {
 
 .carousel-item img{
   height: 700px;
-  width: 1200px;
+  width: 1400px;
 }

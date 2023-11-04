@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/assets/css/estilos .css">
+
+
+    <title>Entradas</title>
+  </head>
+  <body class="bg-dark">
+    <!--  menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/imagenes/logo.png" alt="Logo" class="img-fluid">
+          </a>
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navbar-text-white" href="/index.html">Inicio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav >
+    
+    <div class="bg-image" style="background-image: url('/assets/imagenes/foto2.jpg')">
+    <h3 class="text-center text-white m-6"> Tenes descuento si venis de lejos!</h3>
+    <!-- Cards descuento  -->
+    <div class="container fluid d-flex justify-content-center">
+      <!--Card 1-->
+    <div class="card-group "  style="width: 46rem;">
+      <div class="card border border-primary text-center mx-1">
+        <div class="card-body">
+          <p class="card-text h4">Distancia</p>
+          <p class="card-text">200km o mas</p>
+          <p class="card-text">Tiene un descuento</p>
+          <p class="card-text"> <strong>80%</strong></p>
+          <p class="card-text text-muted"> <small> *presentar documentación</small></p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="card border border-success text-center mx-1" >
+        <div class="card-body">
+          <p class="card-text h4">Distancia</p>
+          <p class="card-text">150km</p>
+          <p class="card-text">Tiene un descuento</p>
+          <p class="card-text"> <strong>50%</strong></p>
+          <p class="card-text text-muted"><small> *presentar documentación</small></p>
+        </div>
+      </div>
+      <!--Card 3-->
+      <div class="card border border-warning text-center mx-1" >
+        <div class="card-body">
+          <p class="card-text h4">Distancia</p>
+          <p class="card-text">80km</p>
+          <p class="card-text">Tiene un descuento</p>
+          <p class="card-text"> <strong>15%</strong></p>
+          <p class="card-text text-muted"><small> *presentar documentación</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+    <div>
+      <p class="text-uppercase pt-2 mb-0 text-center">
+        <small>venta</small>
+      </p>
+      <p class="h3 text-uppercase text-center">valor de entrada: $200</p>
+    </div>
+    
+
+
+     <!-- Formulario  -->
+ 
+    <div class="container-fluid col-9 text-white">
+    <form class="row g-3" id="formulario">
+      
+      <div class="col-md-6">
+        <label for="inputNombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre"  aria-label="Nombre">
+      </div>
+      <div class="col-md-6">
+        <label for="inputApellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="inputApellido" placeholder="Apellido"  aria-label="Apellido">
+      </div>
+      <div class="col-12">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Correo" aria-label="Correo" >
+      </div>
+      
+      <div class="col-md-6">
+        <label for="inputCantidad" class="form-label">Cantidad</label>
+        <input type="number" class="form-control"  placeholder="cantidad" id="cantidad" min="1">
+      </div>
+      <div class="col-md-6">
+        <label for="inputDistancia" class="form-label">Distancia</label>
+        <select  class="form-select" id="distancia"  >
+          <option selected>70km o menos</option>
+          <option>80km</option>
+          <option>150km</option>
+          <option>200km o mas</option>
+        </select>
+      </div>
+  
+      <div class="alert alert-primary " role="alert"  >
+        <p class="mb-0" id="resumen" >Total a Pagar: $</p>
+      </div>
+      
+      <div class="col">
+          <button class="btn btn-success col-sm-12  botonEnviar"id="btnBorrar" type="button" >Borrar</button>
+      </div>
+      <div class="col">
+          <button class="btn btn-success col-sm-12 botonEnviar" id="btnResumen" type="button">Resumen</button>
+        </div>
+      </div>
+    
+    </form>
+  </div>
+</div>
+   
+    <br>
+
+    <!-- Pie de página -->
+    <footer>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #1c445a"
+      >
+        <div class="container">
+          <ul
+            class="navbar-nav"
+            style="justify-content: space-between; width: 100%"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conferencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Términos y Condiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Estudiantes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+
+       <script src="/assets/js/bootstrap.min.js"></script>
+
+       <script src="/assets/js/funcEntrada.js"></script>
+  </body>
+</html>

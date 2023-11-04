@@ -1,0 +1,39 @@
+header {
+
+
+  height: 100vh;
+
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: auto; 
+}
+
+#logo{
+  width: 300px;
+  height: auto; 
+}
+
+header a, h3, p {
+ opacity: 0.5;
+}
+
+header h1 {
+  opacity: 0.8;
+}
+
+.carousel-inner img{
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item img{
+  height: 700px;
+  width: 1400px;
+}
+
+#botonEntradas{
+  margin-right: 15px;
+  
+}
